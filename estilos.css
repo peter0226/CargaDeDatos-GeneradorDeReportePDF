@@ -1,0 +1,167 @@
+﻿body
+{
+}
+
+.contenido_pasaporte {
+    width: 495px;
+    height: 225px;
+    float: left;
+    background-image: url("fondo.png");
+    background-position: center; /* Center the image */
+    /*background-repeat: no-repeat;  Do not repeat the image */
+    background-size: cover;
+    background-size: 5px 12px; /*o 1400  y 900 sin el not repeat*/
+    margin: 3vw;
+    border-radius: 20px;
+    border-color: #ff0000;
+    border: 10px;
+    border: 1px solid black;
+}
+
+.hoja {
+    display: flex;
+}
+
+
+.code{
+    margin-left:100px;
+    font-size: 16px;
+    float:right;
+    
+}
+
+
+
+.tam {
+   
+    margin-left:150px;
+    margin-right:-150px;
+    height: 40px;
+    float: right;
+}
+
+.marca_agua {
+    color: #ff0000;
+    width: 8vw;
+    opacity: 0.3;
+    margin-top: -200px;
+    
+}
+
+.img32 {
+    width: 100px;
+    opacity: 0.8;
+    margin-left: 10px;
+}
+
+.img15 {
+    width: 80px;
+    height: 80px;
+    opacity: 0.3;
+    margin-top: -60px;
+    margin-bottom:60px;
+    margin-left: 240px;
+    margin-right:-240px;
+}
+
+.img18 {
+    width: 90px;
+    opacity: 0.3;
+    margin-top: -90px;
+    margin-bottom: 90px;
+    margin-left: 110px;
+    margin-right: -110px;
+}
+
+.img300 {
+    margin-top:15px;
+    width: 300px;
+    opacity: 0.5;
+}
+
+h3 {
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.marg {
+    margin-left: 10px;
+    margin-bottom:-10px;
+}
+
+.column1 {
+    margin-right: 0;
+    float: left;
+    width: 120px;
+    height: 270px;
+}
+
+.column2 {
+    margin-left: 0;
+    float: right;
+    width: 370px;
+    height: 275px;
+    margin-bottom:-200px;
+}
+
+.column3 {
+
+    width: 30%;
+    margin:3%;
+    margin-top:0;
+    float:left;
+}
+
+.column4 {
+    float:left;
+    width: 50%;
+}
+.column5 {
+    float: left;
+    width: 100%;
+}
+
+.titulo2 {
+    height: 4vh;
+    opacity: 2;
+    margin-top:-50px;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+}
+
+.contenedor2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+
+.derecha {
+    float: right;
+}
+
+.titulo {
+    margin-top: -4vh;
+    background: #00ff90;
+    font-size: 5px;
+    font-family: AR DELANEY;
+    color: rgba(52, 166, 214, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    height: 4vh;
+    background: linear-gradient(45deg, #dca 12%, transparent 0, transparent 88%, #dca 0), linear-gradient(135deg, transparent 37%, #00ff90 0, #00ff90 63%, transparent 0), linear-gradient(45deg, transparent 37%, #00ff90 0, #dca 63%, transparent 0) #fff;
+    background-size: 5px 5px;
+}
+
+.color_red {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+

@@ -1,0 +1,11 @@
+﻿body
+{
+}
+
+.foto {
+    border: 1px solid #232833;
+    width: 30vw;
+    height: 40vw;
+    box-shadow: 2px 2px 10px #666;
+    margin-top:80px;
+}
